@@ -6,7 +6,7 @@
 * **软件环境：** Python 3.13 / OpenVINO 2026.1.0 / PaddleOCR-VL-1.5
 * **核心成果：** 成功在本地 CPU 环境下完成模型的 INT8 压缩，并跑通图文 OCR 推理。
 * **证明材料：**
-    * [运行代码与完整日志](./paddleocr-vl.ipynb)
+    * [运行代码与完整日志](./paddleocr_vl.ipynb)
     * 截图 1：依赖安装成功
       ![依赖安装](./images/Environment.jpg)
     * 截图 2：模型转换为 OpenVINO 格式成功
