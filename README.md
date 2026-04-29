@@ -8,11 +8,11 @@
 * **证明材料：**
     * [运行代码与完整日志](./paddleocr-vl.ipynb)
     * 截图 1：依赖安装成功
-      ![依赖安装](./images/Environment.png)
+      ![依赖安装](./images/Environment.jpg)
     * 截图 2：模型转换为 OpenVINO 格式成功
-      ![模型转换](./images/transform.png)
+      ![模型转换](./images/transform.jpg)
     * 截图 3：推理结果输出
-      ![推理结果](./images/infer.png)
+      ![推理结果](./images/infer.jpg)
 
 ⚠️ 环境注记：
 本次环境使用了最新的 Python 3.13。在运行最后的 Gradio 交互式 Demo 时，由于 Python 3.13 原生移除了 audioop 模块，导致 Gradio 内部依赖报错。虽然通过补充安装 audioop-lts 解决了模块缺失，但由于环境底层渲染机制问题，Demo 页面未能成功拉起。
